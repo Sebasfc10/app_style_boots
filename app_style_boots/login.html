@@ -15,12 +15,12 @@
             <img  class="user" src="imagenes/logo mh.jpg" alt="logo">
             <h1>Login</h1>
           
-            <form>
-                <label for="username">usuario</label>
+            <form name="form" action="index.html">
+                <label for="username">Usuario</label>
                 <input class="email" type="text" placeholder="EMAIL">
 
-                <label for="password">contraseña</label>
-                <input class="pass" type="password" placeholder="CONTRASEÑA">
+                <label for="password">Contraseña</label>
+                <input  onclick=auth() class="pass" type="password" placeholder="CONTRASEÑA">
 
                 <input type="submit" value="Entrar">
             </form>
